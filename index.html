@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="welcome-message">
+        <h1>Welcome to Tekzow</h1>
+    </div>
+    <header>
+
+        <div class="logo">
+            <img src="tekzowlogo.jpg" alt="Logo">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"><i class="fa fa-book"></i> Products</a>
+                    <div class="dropdown-content">
+                        <a href="java.html" id="java-link">Java</a>
+                        <a href="Hypertext_markup.html" id="html-link">HTML</a>
+                        <a href="Cascading.html" id="css-link">CSS</a>
+                        <a href="Scripting.html" id="javascript-link">JavaScript</a>
+                        <a href="python.html" id="python-link">Python</a>
+                    </div>
+                </li>
+                <li><a href="#" id="about-link"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html" ><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="side-drawer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Products</a>
+                    <div class="dropdown-content">
+                        <a href="java.html" id="java-link-side">Java</a>
+                        <a href="Hypertext_markup.html" id="html-link-side">HTML</a>
+                        <a href="Cascading.html" id="css-link-side">CSS</a>
+                        <a href="Scripting.html" id="javascript-link-side">JavaScript</a>
+                        <a href="python.html" id="python-link-side">Python</a>
+                    </div>
+                </li>
+                <li><a href="#" id="about-link-side">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="hidden">
+        <h2>About Us</h2>
+        <p>Welcome to our platform where you can learn many coding languages. The platform supports various languages including Java, CSS, HTML, Python, and JavaScript. We are committed to providing the best learning experience for our users.</p>
+        <p>Our mission is to make coding accessible to everyone, regardless of their background or skill level. Join us on this journey to master the art of coding and build a successful career in technology.</p>
+    </section>
+
+    <!-- Contact Info Section 
+    <section id="contact-info" class="hidden">
+        <h2></h2>
+        <div class="contact-box">
+            <h3>Contact Number</h3>
+            <p>+91 9880351592</p>
+        </div>
+        <div class="contact-box">
+            <h3>WhatsApp Number</h3>
+            <p>+91 9999999999</p>
+        </div>
+        <div class="contact-box">
+            <h3>Contact E-Mail</h3>
+            <p>tekzow@gmail.com / tekzowcompany@gmail.com</p>
+        </div>
+    </section>-->
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2024. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
